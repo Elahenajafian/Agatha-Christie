@@ -1,0 +1,40 @@
+:root {
+  --light-primary: #e9f5e4;
+  --light-secondary: #f2b76b;
+  --light-third: #8cbac2;
+  --dark-primary: #d68b5c;
+  --contrast: #212c40;
+  --box-shadow: 0px 1px 3px var(--contrast);
+}
+
+body {
+  background-color: var(--light-third);
+  color: var(--contrast);
+}
+
+h1 {
+  color: var(--contrast);
+}
+
+p::first-letter {
+  font-size: 30px;
+}
+
+.btn {
+  background-color: #212c40;
+  color: #d68b5c;
+  border: solid 1px var(--contrast);
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: var(--box-shadow);
+}
+
+.btn:hover {
+  background-color: var(--light-secondary);
+  color: #212c40;
+}
+
+.img {
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
